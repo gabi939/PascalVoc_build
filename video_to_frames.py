@@ -28,8 +28,8 @@ def main():
     Here you choose the amount of frames to skip.
 
     """
-    PATH_VIDEO = "/home/gabi/Desktop/temp/Camera4_Lab_Lab_20200101082104_20200101082200_3405473.mp4"
-    PATH_XML_DIR = "/home/gabi/Desktop/temp2"
+    PATH_VIDEO = r"C:\Users\gabi9\Desktop\Vienna\Chasie_session_2_trial_3.mp4"
+    PATH_XML_DIR = r"C:\Users\gabi9\Desktop\temp2"
     frames_skip = 60
 
     xml_filter(PATH_XML_DIR, frames_skip)
